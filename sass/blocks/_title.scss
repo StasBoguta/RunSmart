@@ -1,0 +1,14 @@
+.title{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    &_third{
+        text-align: left;
+        color: #ffffff;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}
