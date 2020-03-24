@@ -101,7 +101,7 @@
                 и мы перезвоним вам в течении 10 минут
             </div>
             <form action="#" class="feed-form">
-                <input name = "name" type="text" placeholder="Ваше имя" required>
+                <input name = "name" type="text" placeholder="Ваше имя" required minlength="3"> 
                 <input name = "phone" type="tel" placeholder="Ваш телефон" required>
                 <input name = "email" type="email" placeholder="Ваш email" required>
                 <button class="button button_submit" data-modal="order">заказать кОНСУЛЬТАЦИЮ</button>
@@ -540,10 +540,10 @@
             <div class="modal__close">&times;</div>
             <h2 class="modal__subtitle">Ваш заказ:</h2>
             <div class="modal__descr">Пульсометр Polar FT1</div>
-            <form action="#" class="feed-form feed-form_modal">
-                <input name="name" type="text" placeholder="Ваше имя" required>
-                <input name="phone" type="tel" placeholder="Ваш телефон" required>
-                <input name="email" type="email" placeholder="Ваш email" required>
+            <form action="#" class="feed-form feed-form_modal" id="consultation-form">
+                <input name="name" type="text" placeholder="Ваше имя">
+                <input name="phone" type="tel" placeholder="Ваш телефон">
+                <input name="email" type="email" placeholder="Ваш email">
                 <button class="button button_submit" data-modal="order">Купить</button>
             </form>
         </div>
@@ -558,6 +558,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src ="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
